@@ -7,7 +7,7 @@ function addEmailToDOM() {
     const newNode = document.createElement("input");
     newNode.className = 'form-control mb-2';
     newNode.placeholder = 'Type your email here...';
-    newNode.style.maxWidth = 'max-width: 25em'
+    newNode.style.maxWidth = '25em'
     emailInputsNode.appendChild(newNode);
 }
 
